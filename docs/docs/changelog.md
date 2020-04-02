@@ -9,7 +9,9 @@ updated_at: 2019-12-10
 
 ### Changes
 
-- The `EventSauce\EventSourcing\Consumer` interface was renamed to `EventSauce\EventSourcing\MessageConsumer`. 
+- The `EventSauce\EventSourcing\Consumer` interface was renamed to `EventSauce\EventSourcing\MessageConsumer`.
+- The dependency on `ramsey/uuid` was removed.
+- The `EventSauce\EventSourcing\UuidAggregateRootId` was removed.
 
 ### Added
 
